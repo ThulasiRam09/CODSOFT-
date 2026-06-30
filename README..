@@ -1,0 +1,51 @@
+# Student Management System
+
+A console-based Java application to manage student records, including adding, removing, searching, updating, and displaying students. Data is stored in a file so records persist between runs.
+
+## Features
+
+- Add a new student with roll number, name, grade, and contact number
+- Remove a student by roll number
+- Search for a student by roll number or by name (partial match)
+- Edit an existing student's information
+- Display all students with total count
+- Input validation for empty fields and contact number format
+- Data persistence using file storage (`students.txt`)
+
+## Project Structure
+
+```
+Student.java                  # Represents an individual student
+StudentManagementSystem.java  # Manages the collection of students and file storage
+Main.java                     # Console menu and user interaction
+```
+
+## Requirements
+
+- Java JDK 8 or higher
+
+## How to Run
+
+```bash
+javac *.java
+java Main
+```
+
+## Menu Options
+
+```
+1. Add a new student
+2. Remove a student
+3. Search for a student
+4. Edit an existing student's information
+5. Display all students
+6. Exit
+```
+
+## Author
+
+N. Thulasi Ram
+
+## License
+
+This project is open source and available for personal or educational use.
